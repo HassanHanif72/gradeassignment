@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from gradeassignment.uk/dissertation by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 May 2024 22:13:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dissertation</title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+<!-- bootstrap 5.1 -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<!-- Style css -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="assets/css/aos.css" />
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+    <nav class="navbar navbar-expand-xl navbar-dark stroke bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="assignment.html">Assignment</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown navdesktop">
+                        <a class="nav-link " href="#">
+                        Services <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-navdesktop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"  href="#">Service 1</a></li>
+                            <li><a class="dropdown-item"  href="#">Service 2</a></li>
+                            <li><a class="dropdown-item"  href="#">Service 3</a></li>
+                            <li><a class="dropdown-item"  href="#">Service 4</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="dissertation.html">
+                            Dissertation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="research-paper.html">
+                            Research Paper
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="thesis.html">
+                            Thesis
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="online-exam.html">
+                            Online Exam
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-2 my-lg-0 d-xl-block d-none">
+                <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+                    class="btn btn-theme">Get Started</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- popup -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-md model-sec">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="model-discount">
+                            <div class="d-block text-center align-items-center">
+                                <div class="animate-div"><span>Sign Up and Avail 40% Discount</span></div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <hr>
+                            <form method="POST" action="https://gradeassignment.uk/signup" class="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                                            <input type="text" class="form-control model-input" placeholder="Enter Name"
+                                                pattern="[A-Za-z ]+" name="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                                            <input type="email" class="form-control model-input"
+                                                placeholder="Enter Email" name="email"
+                                                pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Contact No.</label>
+                                            <input type="number" class="form-control model-input"
+                                                placeholder="Enter Contact No." name="phone"
+                                                onkeypress="if(this.value.length==12) return false;" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Service</label>
+                                            <select class="form-control form-select model-input"
+                                                required="" name="service">
+                                                <option selected="" disabled="" value="">Select Service</option>
+                                                <option value="Assignment">Assignment</option>
+                                                <option value="Dissertation">Dissertation</option>
+                                                <option value="Research Paper">Research Paper</option>
+                                                <option value="Thesis">Thesis</option>
+                                                <option value="Online Exam">Online Exam</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <button type="submit" class="btn btn-theme mt-1 w-100">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->    <!-- End header -->
+
+    <!-- section banner -->
+    <section class="top-banner dissertation">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="left-col">
+                        <h1 class="title">Get Academic Excellence with our Dissertation Writing Experts</h1>
+                        <p class="mb-4">Struggling with your dissertation? Don't let it become a roadblock to your
+                            academic success. At Grade Assignment, we specialize in crafting high-quality dissertations that meet
+                            your specific requirements and help you achieve top grades.
+                        </p>
+                        <div class="btnsec mt-4 mb-4">
+    <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+        class="btn btn-theme">Get Started</a>
+    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-theme-dark">Live Chat</a>
+    <a href="https://wa.me/447864710527" target="_blank" class="btn btn-whatsapp"><i class="fa fa-whatsapp"></i>
+        Whatsapp Now</a>
+</div>                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right-col top_form1">
+    <h2>Get Quote Now</h2>
+    <p>Enjoy <span>40% off</span> On Your first order</p>
+    <form method="POST" action="https://gradeassignment.uk/signup" class="needs-validation" novalidate>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label>Name</label>
+                    <input type="text" class="form-control" name="name" pattern="[A-Za-z ]+"
+                        placeholder="Enter Name*" required="">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input type="email" class="form-control" name="email"
+                        pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" placeholder="Enter Email*" required="">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label>Contact No.</label>
+                    <input type="number" class="form-control" name="phone"
+                        onkeypress="if(this.value.length==12) return false;" placeholder="Enter Contact No.*"
+                        required="">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label>Service</label>
+                    <select class="form-control form-select" required="" name="service">
+                        <option selected="" disabled="" value="">Select Service</option>
+                        <option value="Assignment">Assignment</option>
+                        <option value="Dissertation">Dissertation</option>
+                        <option value="Research Paper">Research Paper</option>
+                        <option value="Thesis">Thesis</option>
+                        <option value="Online Exam">Online Exam</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="mb-0 text-center">
+                    <button type="submit" class="btn btn-theme">Submit</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section -->
+
+    <!-- section partner -->
+    <section class="client">
+    <div class="container">
+        <div class="client-slider">
+
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo1.png" />
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo2.png" />
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo3.png" />
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo4.png" />
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo5.png" />
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="img-icon d-inline">
+                    <img src="assets/images/logo6.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- sec 1 -->
+    <section class="section-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right-col">
+                        <h3 class="title">Feeling <span class="text-theme">overwhelmed by</span> your dissertation?</h3>
+                        <p>
+                            Don't let it hinder your academic progress. At Grade Assignment, we specialize in crafting high-quality
+                            dissertations tailored to your specific needs. Our team of PhD-level writers possesses
+                            extensive experience in various fields and the research skills to tackle even the most
+                            complex topics. We understand the importance of a well-structured dissertation that
+                            showcases your research journey and effectively argues your Research Paper statement. That's
+                            why we offer comprehensive dissertation writing services, from proposal development and
+                            literature review to data analysis, writing, editing, and proofreading. With our expert
+                            guidance and support, you can achieve academic excellence and submit a dissertation you can
+                            be proud of.
+                        </p>
+                        <div class="btnsec mt-4 mb-4">
+    <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+        class="btn btn-theme">Get Started</a>
+    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-theme-dark">Live Chat</a>
+    <a href="https://wa.me/447864710527" target="_blank" class="btn btn-whatsapp"><i class="fa fa-whatsapp"></i>
+        Whatsapp Now</a>
+</div>                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="learn-img animate-up">
+                        <img src="assets/images/img-9.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-1 pt-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="learn-img animate-up">
+                        <img src="assets/images/img-10.png" class="img-fluid d-lg-block d-md-block  d-none" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right-col">
+                        <h3 class="title">Benefits of  <span class="text-theme">Using Our </span> Dissertation Writing Service</h3>
+                        <p><b>Save Time & Reduce Stress:</b>  Focus on your studies and other commitments while our experts handle the heavy lifting of dissertation writing.</p>
+                        <p><b>Gain Valuable Insights:</b> Our writers can provide feedback and guidance throughout the process, helping you refine your research and strengthen your arguments.</p>
+                        <p><b>Boost Your Confidence:</b> Submit a high-quality dissertation that reflects your knowledge and understanding of the subject matter.</p>
+                        <div class="btnsec mt-4 mb-4">
+    <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+        class="btn btn-theme">Get Started</a>
+    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-theme-dark">Live Chat</a>
+    <a href="https://wa.me/447864710527" target="_blank" class="btn btn-whatsapp"><i class="fa fa-whatsapp"></i>
+        Whatsapp Now</a>
+</div>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- order sec -->
+    <section class="order-sec">
+    <div class="container">
+        <div class="row align-items-center text-center justify-content-center">
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="assets/images/icon-theme-white.png" class="me-2" alt="">
+                    <span>Efficient Procedure for Acquisition</span>
+                </div>
+                <h3 class="title">Working with us has never been easier</h3>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="order-card mt-3">
+                    <div class="order-inner">
+                        <img src="assets/images/order-1.png">
+                        <div class="mb-0">
+                            <h4>Submit Your Request</h4>
+                            <p>Fill out our easy-to-use form, providing all the details of your assignment. Be sure to
+                                include the Name, Email, Phone, and Service.</p>
+                        </div>
+                    </div>
+                    <div class="order-inner">
+                        <img src="assets/images/order-2.png">
+                        <div class="mb-0">
+                            <h4>Confirm Your Order</h4>
+                            <p>We'll send you a detailed quote outlining the price and timeline for your project.
+                                Carefully review the information and confirm your order when you're happy with
+                                everything.</p>
+                        </div>
+                    </div>
+                    <div class="order-inner">
+                        <img src="assets/images/order-3.png">
+                        <div class="mb-0">
+                            <h4>Payment</h4>
+                            <p>We utilize a secure payment gateway to ensure a smooth and protected transaction. You can
+                                choose your preferred payment method for your convenience.</p>
+                        </div>
+                    </div>
+                    <div class="order-inner">
+                        <img src="assets/images/order-4.png">
+                        <div class="mb-0">
+                            <h4>Receive Your Completed Task</h4>
+                            <p>We'll handle the writing process while you focus on other priorities. Once your
+                                assignment is complete, you'll receive it well before the deadline, allowing you ample
+                                time for review and feedback.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="img-sec mt-3">
+                    <img src="assets/images/img-3.png" class="img-fluid animate-up d-none d-xl-block" alt="img-3" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- why choose us -->
+    <section class="why-choose-us">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="left-col">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/icon-theme.png" class="me-2" alt="" />
+                        <span>Why Choose Us?</span>
+                    </div>
+                    <h3>A pool of committed Assignment Helpers</h3>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="right-col">
+                    <p>Our team of writers consists of highly qualified professionals with advanced degrees in various
+                        academic disciplines. With their depth of knowledge and expertise, our writers excel in
+                        producing well-researched, coherent, and original academic papers that are sure to impress your
+                        professors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-4">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="left">
+                    <img src="assets/images/img-2.png" class="img-fluid animate-up" alt="" />
+                </div>
+                <div class="box-card">
+                    <div class="box-sec">
+                        <img src="assets/images/w-5.png">
+                        <div class="mb-0">
+                            <h4>High-Quality Work</h4>
+                            <p>Our experienced writers are dedicated to crafting exceptional, well-researched papers
+                                that showcase your academic knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="right">
+                    <div class="box-card">
+                        <div class="box-sec">
+                            <img src="assets/images/w-1.png">
+                            <div class="mb-0">
+                                <h4>100% Plagiarism Free</h4>
+                                <p>We take originality seriously. All our work goes through rigorous plagiarism checks
+                                    to ensure your paper is unique and authentic.</p>
+                            </div>
+                        </div>
+                        <div class="box-sec">
+                            <img src="assets/images/w-2.png">
+                            <div class="mb-0">
+                                <h4>Free Unlimited Revisions</h4>
+                                <p>We want you to be completely satisfied. Don't hesitate to request revisions until
+                                    your paper meets your exact specifications.</p>
+                            </div>
+                        </div>
+                        <div class="box-sec">
+                            <img src="assets/images/w-3.png">
+                            <div class="mb-0">
+                                <h4>24/7 Online Support</h4>
+                                <p>Our dedicated support team is available around the clock to answer your questions and
+                                    address any concerns you may have.</p>
+                            </div>
+                        </div>
+                        <div class="box-sec">
+                            <img src="assets/images/w-4.png">
+                            <div class="mb-0">
+                                <h4>Money-Back Guarantee</h4>
+                                <p>We're confident in our work. If you're not satisfied with the final product, we offer
+                                    a full money-back guarantee. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- faqs -->
+    <!-- section faqs -->
+<section class="faqs">
+    <div class="container">
+        <div class="row align-items-center text-center justify-content-center">
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="assets/images/icon-theme.png" class="me-2" alt="">
+                    <span>FAQs</span>
+                </div>
+                <h3 class="title">Frequently Asked Questions</h3>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="right-col mt-3">
+                    <img src="assets/images/img-4.png" class="img-fluid" alt="">
+                    <div class="have-question" style="padding: 20px 20px">
+                        <div class="mb-0">
+                            <h4>Still Have Questions?</h4>
+                            <p>Whether you need assistance with research, writing, editing, or proofreading, rest
+                                assured that our team will deliver outstanding results.</p>
+                        </div>
+                        <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            class="btn btn-theme">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="left-col mt-3">
+                    <div class="faqs-box">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Are your services confidential?
+                                    </button>
+                                </h4>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>Absolutely! We prioritize client confidentiality and take measures to protect
+                                            your information.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Can I choose the writer who works on my assignment?
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>While we can't guarantee specific writer selection, you can provide details
+                                            about your preferences (e.g., subject area expertise) to help us match you
+                                            with the best writer for your needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        How do I know my paper will be plagiarism-free?
+                                    </button>
+                                </h4>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>We use reliable plagiarism-checking software like Turnitin and conduct
+                                            thorough manual reviews to ensure your paper is original and properly cited.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What types of academic writing services do you offer?
+                                    </button>
+                                </h4>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>We offer a wide range of services, including research
+                                            papers, dissertations, homework assignments, and more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        What is your turnaround time?
+                                    </button>
+                                </h4>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>Turnaround times vary depending on your assignment's complexity and the
+                                            paper's length. We offer flexible options to meet your deadlines.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        How can I make revisions to my paper?
+                                    </button>
+                                </h4>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p>We offer free unlimited revisions! Simply contact our support team and
+                                            provide your feedback.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end -->    <!-- end -->
+
+    <!-- testimonial sec -->
+    <section class="testimonials-sec">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="left">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/icon-theme.png" class="me-2" alt="" />
+                        <span>Testimonials</span>
+                    </div>
+                    <h3>Our Customer’s Reviews</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+            <div class="testi-body">
+                <div class="testi-box">
+                    <img src="assets/images/quote.png" class="mb-3" />
+                    <p class="height">"I wasn't sure about using a writing service at first, but I'm so glad I gave Grade Assignment a try. Their
+                        money-back guarantee gave me peace of mind, and the final product was exactly what I needed.
+                        Will definitely use them again!"</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="assets/images/testi-1.png" class="me-3" alt="">
+                        <div class="mb-0">
+                            <h4>Lisa T.</h4>
+                            <span>College Student</span>
+                            <p>(3.5 / 5.0) <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-box">
+                    <img src="assets/images/quote.png" class="mb-3" />
+                    <p class="height">"I was so nervous about my dissertation, but working with a PhD writer at Grade Assignment made the process so
+                        much smoother. They provided valuable guidance and helped me stay on track. Highly recommend!"
+                    </p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="assets/images/testi-2.png" class="me-3" alt="">
+                        <div class="mb-0">
+                            <h4>David L.</h4>
+                            <span>PhD Candidate</span>
+                            <p>(4.0 / 5.0) <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="testi-box">
+                    <img src="assets/images/quote.png" class="mb-3" />
+                    <p class="height">"The 24/7 support at Grade Assignment is fantastic! I had a question in the middle of the night, and they were
+                        there to answer it right away. The quality of the writing is top-notch as well."</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="assets/images/testi-3.png" class="me-3" alt="">
+                        <div class="mb-0">
+                            <h4>Michael K.</h4>
+                            <span>Graduate Student</span>
+                            <p>(3.0 / 5.0) <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-box">
+                    <img src="assets/images/quote.png" class="mb-3" />
+                    <p class="height"> "I used Grade Assignment for a few essays throughout the semester, and I was consistently impressed. The
+                        writers are clearly experts in their fields, and the papers were always plagiarism-free and
+                        delivered on time."</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="assets/images/testi-4.png" class="me-3" alt="">
+                        <div class="mb-0">
+                            <h4>Emily C.</h4>
+                            <span>High School Senior</span>
+                            <p>(5.0 / 5.0) <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- Get Quote Model -->
+    <section class="get-quote">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <div class="left-col">
+                    <h3>We Guarantee you the best writing service</h3>
+                    <p class="mb-3">At Grade Assignment, we are dedicated to upholding the highest
+                        standards of academic writing excellence. Our commitment to quality, precision, and originality
+                        is the foundation of every project we undertake. Whether you need assistance with research,
+                        writing, editing, or proofreading, rest assured that our team will deliver outstanding results
+                        that reflect our unwavering dedication to academic integrity and success.</p>
+                    <div class="contact-info">
+                        <div class="contact-inner">
+                            <img src="assets/images/phone-icon.png" alt="">
+                            <div class="mb-0">
+                                <span>Call Us Here</span>
+                                <p><a href="tel:441668660640">+44 166 866 0640</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-inner">
+                            <img src="assets/images/email-icon.png" alt="">
+                            <div class="mb-0">
+                                <span>Email Us Here</span>
+                                <p><a href="mailto:info@gradeassignment.uk">info@gradeassignment.uk</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <form method="POST" action="https://gradeassignment.uk/signup" class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="name" pattern="[A-Za-z ]+"
+                                        placeholder="Enter Name*" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="email"
+                                        pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" placeholder="Enter Email*"
+                                        required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <label>Contact No.</label>
+                                    <input type="number" class="form-control" name="phone"
+                                        onkeypress="if(this.value.length==12) return false;"
+                                        placeholder="Enter Contact No.*" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <label>Service</label>
+                                    <select class="form-control form-select" required="" name="service">
+                                        <option selected="" disabled="" value="">Select Service</option>
+                                        <option value="Assignment">Assignment</option>
+                                        <option value="Dissertation">Dissertation</option>
+                                        <option value="Research Paper">Research Paper</option>
+                                        <option value="Thesis">Thesis</option>
+                                        <option value="Online Exam">Online Exam</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-0 text-center">
+                                    <button type="submit" class="btn btn-theme w-100">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="right-col">
+                    <img src="assets/images/img-5.png" class="img-fluid animate-up" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- footer -->
+    <!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="assets/images/footer-logo.png"></a>
+                    <p>Grade Assignment prioritize customer satisfaction and guarantees timely delivery, confidentiality, and originality of work. Our commitment to excellence is reflected in our rigorous quality assurance processes, ensuring that every assignment undergoes thorough proofreading, editing, and plagiarism checks before being delivered to the client.
+                    </p>
+                    <p class="mt-2 d-xl-none d-block"><a class="text-white text-decoration-none" href="mailto:info@gradeassignment.uk"><i class="fa fa-envelope"></i> info@gradeassignment.uk</a></p>
+                    <div class="social">
+                        <p class="mb-0">
+                            <a target="_blank" aria-label="Facebook" href="https://www.facebook.com/profile.php?id=61558715875361"><i
+                                    class="fa fa-facebook-official"></i></a>
+                            <a target="_blank" aria-label="LinkedIn" href="https://www.linkedin.com/company/grade-assignment"><i class="fa fa-linkedin"></i></a>
+                             <a target="_blank" aria-label="Instagram" href="https://www.instagram.com/grade.assignment/"><i class="fa fa-instagram"></i></a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links ">
+                    <h6>Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="assignment.html"> Assignment</a></li>
+                        <li><a href="dissertation.html"> Dissertation</a></li>
+                        <li><a href="research-paper.html"> Research Paper</a></li>
+                        <li><a href="thesis.html"> Thesis</a></li>
+                        <li><a href="online-exam.html"> Online Exam</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h6>Contact Us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:441668660640"><i class="fa fa-phone"></i> +44 166 866 0640</a></li>
+                        <li><a href="https://wa.me/447864710527" target="_blank"><i class="fa fa-whatsapp"></i>
+                                +44 786 471 0527</a></li>
+                        <li><a href="javascript:void(Tawk_API.toggle())"><i class="fa fa-comments-o me-1"></i>
+                                Start Live Chat</a></li>
+                        <li class="d-xl-block d-none"><a href="mailto:info@gradeassignment.uk"><i class="fa fa-envelope"></i> info@gradeassignment.uk</a></li>
+                    </ul>
+                </div>
+                <div class="trust-rating">
+                    <a href="https://uk.trustpilot.com/review/gradeassignment.uk" class="text-decoration-none" target="_blank">
+                        <img src="assets/images/trustpilot.webp" alt="trustpilot">
+                        <img src="assets/images/4-star.webp" alt="4-star">
+                        <!--<span>Reviews 4.2</span>-->
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-links">
+                    <h6>Subscribe Us</h6>
+                    <p>Stay updated with our latest news. We promise not to spam!</p>
+                    <form method="POST" action="https://gradeassignment.uk/subscribe">
+                        <div class="input-group mt-3 mb-3">
+                            <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email"
+                                aria-describedby="Your Email" name="email"
+                                pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" required="">
+                            <button type="submit"><i class="fa fa-send-o"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row align-items-center mt-0 pt-2 pb-2">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-bootom-links d-flex align-items-center justify-content-between">
+                    <p>© Copyright 2024 . Grade Assignment . All rights reserved.</p>
+                    <div class="last-links">
+                        <a href="terms-and-conditions.html">Term And Conditions</a> | <a href="privacy-policy.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+<!-- Website JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick Carousel JS-->
+<script src="../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/main.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/661ff61a1ec1082f04e3ac47/1hrmdimvk';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Offcanvas Side Bar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="assignment.html">Assignment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="dissertation.html">
+                    Dissertation
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="research-paper.html">
+                    Research Paper
+                </a>
+            </li>
+            <li class="nav-item">
+                        <a class="nav-link " href="thesis.html">
+                            Thesis
+                        </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="online-exam.html">
+                    Online Exam
+                </a>
+            </li>
+        </ul>
+        <div class="mt-3">
+            <a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"
+                class="btn btn-theme">Get Started</a>
+        </div>
+    </div>
+</div>
+<!-- end -->    <!-- end -->
+
+
+</body>
+
+
+<!-- Mirrored from gradeassignment.uk/dissertation by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 May 2024 22:13:19 GMT -->
+</html>
